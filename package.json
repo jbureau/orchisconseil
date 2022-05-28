@@ -1,0 +1,12 @@
+{
+  "name": "orchisconseil",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jbureau/orchisconseil.git",
+  "author": "Julie Bureau <bureau.julie@ymail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^5.0.0",
+    "lerna-changelog": "^2.2.0"
+  }
+}

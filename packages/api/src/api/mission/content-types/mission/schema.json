@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "missions",
+  "info": {
+    "singularName": "mission",
+    "pluralName": "missions",
+    "displayName": "mission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "place": {
+      "type": "string"
+    },
+    "result": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "context": {
+      "type": "richtext"
+    },
+    "solution": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    },
+    "client": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::client.client",
+      "inversedBy": "missions"
+    },
+    "domains": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::domain.domain",
+      "inversedBy": "missions"
+    },
+    "types": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::type.type",
+      "inversedBy": "missions"
+    }
+  }
+}

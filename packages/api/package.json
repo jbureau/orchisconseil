@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "description": "A Strapi application",
+  "author": "Julie Bureau <bureau.julie@ymail.com>",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/strapi": "4.1.12",
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.7.3"
+  },
+  "strapi": {
+    "uuid": "82d43ad8-8ac2-44df-9f6f-8d150e89f0c4"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,6 @@
+/lerna-debug.log
+node_modules
+lib
+.env
+.editorconfig
+.idea
